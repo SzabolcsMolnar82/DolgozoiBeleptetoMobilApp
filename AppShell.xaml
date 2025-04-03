@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:views="clr-namespace:DolgozoiBeleptetoMobilApp.Views"
+       x:Class="DolgozoiBeleptetoMobilApp.AppShell">
+    <ShellContent Title="Bejelentkezés" Route="LoginPage" ContentTemplate="{DataTemplate views:LoginPage}" />
+    <ShellContent Title="Bejelentkezés" Route="CheckInPage" ContentTemplate="{DataTemplate views:CheckInPage}" />
+    <ShellContent Title="Kijelentkezés" Route="CheckOutPage" ContentTemplate="{DataTemplate views:CheckOutPage}" />
+    <ShellContent Title="Havi munka" Route="MonthlyHoursPage" ContentTemplate="{DataTemplate views:MonthlyHoursPage}" />
+</Shell>

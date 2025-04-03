@@ -1,0 +1,14 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:DolgozoiBeleptetoMobilApp.ViewModels"
+             x:Class="DolgozoiBeleptetoMobilApp.Views.CheckOutPage">
+
+    <ContentPage.BindingContext>
+        <vm:CheckOutViewModel />
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout Padding="30" Spacing="15">
+        <Label Text="Munka befejezése" FontAttributes="Bold" FontSize="22" />
+        <Button Text="Kijelentkezés" Command="{Binding CheckOutCommand}" />
+    </VerticalStackLayout>
+</ContentPage>

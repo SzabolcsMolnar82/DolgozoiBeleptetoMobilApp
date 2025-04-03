@@ -1,0 +1,16 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:DolgozoiBeleptetoMobilApp.ViewModels"
+             x:Class="DolgozoiBeleptetoMobilApp.Views.LoginPage">
+
+    <ContentPage.BindingContext>
+        <vm:LoginViewModel />
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout Padding="30" Spacing="15">
+        <Entry Placeholder="Felhasználónév" Text="{Binding FelhasznaloNev}" />
+        <Entry Placeholder="Jelszó" IsPassword="True" Text="{Binding Jelszo}" />
+        <Label Text="{Binding ErrorMessage}" TextColor="Red" />
+        <Button Text="Bejelentkezés" Command="{Binding LoginCommand}" />
+    </VerticalStackLayout>
+</ContentPage>
