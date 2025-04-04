@@ -38,13 +38,15 @@ namespace DolgozoiBeleptetoMobilApp.ViewModels
                 if (response.IsSuccessStatusCode)
                 {
                     var result = await response.Content.ReadFromJsonAsync<LoginResponse>();
+
+                    Preferences.Set("nev", result.Nev);
+                    Preferences.Set("dolgozoId", result.DolgozoId);
                     await SecureStorage.SetAsync("jwt_token", result.Token);
-                    await Shell.Current.GoToAsync("//CheckInPage");
-                }
-                else
-                {
-                    var content = await response.Content.ReadAsStringAsync();
-                    ErrorMessage = $"Bejelentkezési hiba: {response.StatusCode}\n{content}";
+
+                    if (result.IsAdmin)
+                        await Shell.Current.GoToAsync("//AdminPage");
+                    else
+                        await Shell.Current.GoToAsync("//DashboardPage");
                 }
             }
             catch (Exception ex)
@@ -53,6 +55,13 @@ namespace DolgozoiBeleptetoMobilApp.ViewModels
             }
         }
 
-        private class LoginResponse { public string Token { get; set; } }
+        private class LoginResponse 
+        {
+            public string Token { get; set; }
+            public bool IsAdmin { get; set; }
+            public string Nev { get; set; }
+            public int DolgozoId { get; set; }
+
+        }
     }
 }

@@ -3,8 +3,12 @@
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:views="clr-namespace:DolgozoiBeleptetoMobilApp.Views"
        x:Class="DolgozoiBeleptetoMobilApp.AppShell">
-    <ShellContent Title="Bejelentkezés" Route="LoginPage" ContentTemplate="{DataTemplate views:LoginPage}" />
+    <ShellContent Title="BLOKKOLÓ-ÓRA" Route="LoginPage" ContentTemplate="{DataTemplate views:LoginPage}" />
     <ShellContent Title="Bejelentkezés" Route="CheckInPage" ContentTemplate="{DataTemplate views:CheckInPage}" />
     <ShellContent Title="Kijelentkezés" Route="CheckOutPage" ContentTemplate="{DataTemplate views:CheckOutPage}" />
     <ShellContent Title="Havi munka" Route="MonthlyHoursPage" ContentTemplate="{DataTemplate views:MonthlyHoursPage}" />
+    <ShellContent Route="AdminPage" ContentTemplate="{DataTemplate views:AdminPage}" />
+    <ShellContent Route="DashboardPage" ContentTemplate="{DataTemplate views:DashboardPage}" />
+
+
 </Shell>

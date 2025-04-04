@@ -1,19 +1,21 @@
-﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:vm="clr-namespace:DolgozoiBeleptetoMobilApp.ViewModels"
              x:Class="DolgozoiBeleptetoMobilApp.Views.MonthlyHoursPage"
-             Appearing="ContentPage_Appearing">
+             Title="Havi munkaórák">
 
-    <ContentPage.BindingContext>
-        <vm:MonthlyHoursViewModel />
-    </ContentPage.BindingContext>
+    <VerticalStackLayout Padding="20" Spacing="10">
+        <Label Text="Havi munkaidő" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
 
-    <VerticalStackLayout Padding="20">
-        <Label Text="Havi ledolgozott idők" FontAttributes="Bold" FontSize="20" />
-        <CollectionView ItemsSource="{Binding LedolgozottNapok}">
+        <CollectionView ItemsSource="{Binding HaviMunkaLista}">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Label Text="{Binding .}" />
+                    <Frame BorderColor="Gray" Margin="5">
+                        <VerticalStackLayout Padding="10">
+                            <Label Text="{Binding Datum}" FontAttributes="Bold" />
+                            <Label Text="{Binding LedolgozottIdo}" />
+                        </VerticalStackLayout>
+                    </Frame>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>

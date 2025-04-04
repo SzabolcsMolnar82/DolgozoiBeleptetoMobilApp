@@ -6,20 +6,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace DolgozoiBeleptetoMobilApp.Views
 {
     public partial class MonthlyHoursPage : ContentPage
     {
-        private MonthlyHoursViewModel ViewModel => (MonthlyHoursViewModel)BindingContext;
-
         public MonthlyHoursPage()
         {
             InitializeComponent();
+            BindingContext = new MonthlyHoursViewModel();
         }
 
-        private async void ContentPage_Appearing(object sender, EventArgs e)
+        protected override async void OnAppearing()
         {
-            await ((AsyncRelayCommand)ViewModel.LoadDataCommand).ExecuteAsync(null);
+            base.OnAppearing();
+            if (BindingContext is MonthlyHoursViewModel vm && vm.LoadDataCommand is IAsyncRelayCommand asyncCmd)
+            {
+                await asyncCmd.ExecuteAsync(null);
+            }
         }
     }
 }

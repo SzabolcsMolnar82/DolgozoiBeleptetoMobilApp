@@ -4,6 +4,30 @@
         <name>DolgozoiBeleptetoMobilApp</name>
     </assembly>
     <members>
+        <member name="T:DolgozoiBeleptetoMobilApp.ViewModels.AdminViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:DolgozoiBeleptetoMobilApp.ViewModels.AdminViewModel.Dolgozok">
+            <inheritdoc cref="F:DolgozoiBeleptetoMobilApp.ViewModels.AdminViewModel.dolgozok"/>
+        </member>
+        <member name="P:DolgozoiBeleptetoMobilApp.ViewModels.AdminViewModel.UjNev">
+            <inheritdoc cref="F:DolgozoiBeleptetoMobilApp.ViewModels.AdminViewModel.ujNev"/>
+        </member>
+        <member name="P:DolgozoiBeleptetoMobilApp.ViewModels.AdminViewModel.UjFelhasznaloNev">
+            <inheritdoc cref="F:DolgozoiBeleptetoMobilApp.ViewModels.AdminViewModel.ujFelhasznaloNev"/>
+        </member>
+        <member name="P:DolgozoiBeleptetoMobilApp.ViewModels.AdminViewModel.UjJelszo">
+            <inheritdoc cref="F:DolgozoiBeleptetoMobilApp.ViewModels.AdminViewModel.ujJelszo"/>
+        </member>
+        <member name="T:DolgozoiBeleptetoMobilApp.ViewModels.DashboardViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:DolgozoiBeleptetoMobilApp.ViewModels.DashboardViewModel.WelcomeText">
+            <inheritdoc cref="F:DolgozoiBeleptetoMobilApp.ViewModels.DashboardViewModel.welcomeText"/>
+        </member>
+        <member name="P:DolgozoiBeleptetoMobilApp.ViewModels.DashboardViewModel.WorkedTime">
+            <inheritdoc cref="F:DolgozoiBeleptetoMobilApp.ViewModels.DashboardViewModel.workedTime"/>
+        </member>
         <member name="T:DolgozoiBeleptetoMobilApp.ViewModels.LoginViewModel">
             <inheritdoc/>
         </member>
@@ -28,6 +52,24 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Dolgozok">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Dolgozok" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.UjNev">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "UjNev" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.UjFelhasznaloNev">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "UjFelhasznaloNev" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.UjJelszo">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "UjJelszo" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.WelcomeText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "WelcomeText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.WorkedTime">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "WorkedTime" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FelhasznaloNev">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FelhasznaloNev" generated properties.</summary>
         </member>
@@ -45,6 +87,24 @@
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Dolgozok">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Dolgozok" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.UjNev">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "UjNev" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.UjFelhasznaloNev">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "UjFelhasznaloNev" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.UjJelszo">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "UjJelszo" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.WelcomeText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "WelcomeText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.WorkedTime">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "WorkedTime" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FelhasznaloNev">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FelhasznaloNev" generated properties.</summary>
