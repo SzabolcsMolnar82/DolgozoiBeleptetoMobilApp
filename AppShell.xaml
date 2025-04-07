@@ -9,6 +9,7 @@
     <ShellContent Title="Havi munka" Route="MonthlyHoursPage" ContentTemplate="{DataTemplate views:MonthlyHoursPage}" />
     <ShellContent Route="AdminPage" ContentTemplate="{DataTemplate views:AdminPage}" />
     <ShellContent Route="DashboardPage" ContentTemplate="{DataTemplate views:DashboardPage}" />
+    <ShellContent Title="Kijelentkezés" Route="LogoutPage" ContentTemplate="{DataTemplate views:LogoutPage}" />
 
 
 </Shell>
