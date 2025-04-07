@@ -1,12 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
 using System.Net.Http.Json;
-using System.Text;
-using System.Threading.Tasks;
 using DolgozoiBeleptetoMobilApp.Models;
 
 namespace DolgozoiBeleptetoMobilApp.ViewModels
@@ -17,7 +12,6 @@ namespace DolgozoiBeleptetoMobilApp.ViewModels
         [ObservableProperty] private string ujNev;
         [ObservableProperty] private string ujFelhasznaloNev;
         [ObservableProperty] private string ujJelszo;
-
 
         public AdminViewModel()
         {
@@ -38,10 +32,23 @@ namespace DolgozoiBeleptetoMobilApp.ViewModels
 
         private async void LoadDolgozok()
         {
-            var client = new HttpClient();
-            var result = await client.GetFromJsonAsync<List<DolgozoDto>>($"{ApiConstants.BaseUrl}/api/dolgozo");
-            if (result != null)
-                Dolgozok = new ObservableCollection<DolgozoDto>(result);
+            try
+            {
+                var token = await SecureStorage.GetAsync("jwt_token");
+
+                var client = new HttpClient();
+                client.DefaultRequestHeaders.Authorization =
+                    new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+                var result = await client.GetFromJsonAsync<List<DolgozoDto>>($"{ApiConstants.BaseUrl}/api/admin/get-employees");
+
+                if (result != null)
+                    Dolgozok = new ObservableCollection<DolgozoDto>(result);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"❌ Dolgozók betöltése sikertelen: {ex.Message}");
+            }
         }
 
         public IRelayCommand AddCommand => new RelayCommand(async () =>
@@ -60,9 +67,5 @@ namespace DolgozoiBeleptetoMobilApp.ViewModels
                 LoadDolgozok();
             }
         });
-
-
     }
-
 }
-

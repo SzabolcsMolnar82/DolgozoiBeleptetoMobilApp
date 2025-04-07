@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DolgozoiBeleptetoMobilApp.Models;
 using DolgozoiBeleptetoMobilApp.ViewModels;
 
 namespace DolgozoiBeleptetoMobilApp.Views
@@ -16,4 +12,3 @@ namespace DolgozoiBeleptetoMobilApp.Views
         }
     }
 }
-

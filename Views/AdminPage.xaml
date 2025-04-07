@@ -1,31 +1,31 @@
 ﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DolgozoiBeleptetoMobilApp.Views.AdminPage"
-             Title="Admin">
-    <VerticalStackLayout Padding="20">
+             Title="Admin felület">
 
-		<Label Text="Új dolgozó hozzáadása" FontAttributes="Bold" />
-		<Entry Placeholder="Név" Text="{Binding UjNev}" />
-		<Entry Placeholder="Felhasználónév" Text="{Binding UjFelhasznaloNev}" />
-		<Entry Placeholder="Jelszó" Text="{Binding UjJelszo}" IsPassword="True" />
-		<Button Text="Hozzáadás" Command="{Binding AddCommand}" />
-		
-        <Label Text="Dolgozók listája" FontSize="24" FontAttributes="Bold" />
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+            <Label Text="Dolgozók listája" FontSize="22" FontAttributes="Bold" />
 
-        <CollectionView ItemsSource="{Binding Dolgozok}" SelectionMode="None">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Frame BorderColor="Gray" Padding="10" Margin="5">
-                        <VerticalStackLayout>
-                            <Label Text="{Binding Nev}" FontAttributes="Bold" />
-                            <Label Text="{Binding FelhasznaloNev}" FontSize="12" />
-                            <Button Text="Törlés" Command="{Binding BindingContext.DeleteCommand, Source={x:Reference Name=adminPage}}" CommandParameter="{Binding Id}" />
-                        </VerticalStackLayout>
-                    </Frame>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+            <CollectionView ItemsSource="{Binding Dolgozok}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="LightGray" Padding="10" Margin="5">
+                            <VerticalStackLayout>
+                                <Label Text="{Binding Nev}" FontSize="18" />
+                                <Label Text="{Binding FelhasznaloNev}" FontSize="14" TextColor="Gray" />
+                                <Button Text="Törlés" Command="{Binding BindingContext.DeleteCommand, Source={x:Reference Name=AdminPageRoot}}" CommandParameter="{Binding Id}" />
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
 
-        <Button Text="Frissítés" Command="{Binding RefreshCommand}" />
-    </VerticalStackLayout>
+            <Label Text="Új dolgozó hozzáadása" FontSize="18" FontAttributes="Bold" Margin="0,20,0,0" />
+            <Entry Placeholder="Név" Text="{Binding UjNev}" />
+            <Entry Placeholder="Felhasználónév" Text="{Binding UjFelhasznaloNev}" />
+            <Entry Placeholder="Jelszó" Text="{Binding UjJelszo}" IsPassword="True" />
+            <Button Text="Hozzáadás" Command="{Binding AddCommand}" />
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
