@@ -22,7 +22,7 @@ namespace DolgozoiBeleptetoMobilApp.ViewModels
 
         public IRelayCommand<int> DeleteCommand => new RelayCommand<int>(async (id) =>
         {
-            var response = await new HttpClient().DeleteAsync($"{ApiConstants.BaseUrl}/api/dolgozo/{id}");
+            var response = await new HttpClient().DeleteAsync($"{ApiConstants.BaseUrl}/api/admin/dolgozo/{id}");
             if (response.IsSuccessStatusCode)
             {
                 var torlendo = Dolgozok.FirstOrDefault(d => d.Id == id);
@@ -53,19 +53,37 @@ namespace DolgozoiBeleptetoMobilApp.ViewModels
 
         public IRelayCommand AddCommand => new RelayCommand(async () =>
         {
-            var dolgozo = new
+            try
             {
-                Nev = UjNev,
-                FelhasznaloNev = UjFelhasznaloNev,
-                Jelszo = UjJelszo
-            };
+                var token = await SecureStorage.GetAsync("jwt_token");
 
-            var response = await new HttpClient().PostAsJsonAsync($"{ApiConstants.BaseUrl}/api/dolgozo", dolgozo);
-            if (response.IsSuccessStatusCode)
+                var dolgozo = new
+                {
+                    Nev = UjNev,
+                    FelhasznaloNev = UjFelhasznaloNev,
+                    Jelszo = UjJelszo
+                };
+
+                var client = new HttpClient();
+                client.DefaultRequestHeaders.Authorization =
+                    new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+                var response = await client.PostAsJsonAsync($"{ApiConstants.BaseUrl}/api/admin/add-employee", dolgozo);
+                if (response.IsSuccessStatusCode)
+                {
+                    UjNev = UjFelhasznaloNev = UjJelszo = string.Empty;
+                    LoadDolgozok();
+                }
+                else
+                {
+                    Console.WriteLine($"❌ Hozzáadás sikertelen: {response.StatusCode}");
+                }
+            }
+            catch (Exception ex)
             {
-                UjNev = UjFelhasznaloNev = UjJelszo = string.Empty;
-                LoadDolgozok();
+                Console.WriteLine($"❌ Hiba új dolgozó hozzáadásakor: {ex.Message}");
             }
         });
+
     }
 }
