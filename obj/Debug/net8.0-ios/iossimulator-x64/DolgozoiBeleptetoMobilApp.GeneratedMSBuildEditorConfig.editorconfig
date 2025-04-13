@@ -84,12 +84,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = DolgozoiBeleptetoMobilApp.
 build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
 
-[C:/Users/pc/source/repos/DolgozoiBeleptetoMobilApp/Views/LogoutPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = DolgozoiBeleptetoMobilApp.Views.LogoutPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\LogoutPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\LogoutPage.xaml
-
 [C:/Users/pc/source/repos/DolgozoiBeleptetoMobilApp/Views/MonthlyHoursPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DolgozoiBeleptetoMobilApp.Views.MonthlyHoursPage.xaml

@@ -14,7 +14,6 @@ namespace DolgozoiBeleptetoMobilApp
             Routing.RegisterRoute("CheckInPage", typeof(CheckInPage));
             Routing.RegisterRoute("CheckOutPage", typeof(CheckOutPage));
             Routing.RegisterRoute("MonthlyHoursPage", typeof(MonthlyHoursPage));
-            Routing.RegisterRoute("LogoutPage", typeof(LogoutPage));
         }
     }
 }
