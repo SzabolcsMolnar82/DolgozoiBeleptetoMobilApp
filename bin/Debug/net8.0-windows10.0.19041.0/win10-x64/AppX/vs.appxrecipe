@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\pc\source\repos\DolgozoiBeleptetoMobilApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-13T18:26:51.044</Modified>
+      <Modified>2025-04-14T09:00:49.465</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\pc\source\repos\DolgozoiBeleptetoMobilApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-04-13T18:26:50.852</Modified>
+      <Modified>2025-04-13T18:33:13.396</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\source\repos\DolgozoiBeleptetoMobilApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DolgozoiBeleptetoMobilApp.runtimeconfig.json">
       <PackagePath>DolgozoiBeleptetoMobilApp.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\source\repos\DolgozoiBeleptetoMobilApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DolgozoiBeleptetoMobilApp.dll">
       <PackagePath>DolgozoiBeleptetoMobilApp.dll</PackagePath>
-      <Modified>2025-04-13T18:26:49.648</Modified>
+      <Modified>2025-04-14T09:00:49.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\source\repos\DolgozoiBeleptetoMobilApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>DolgozoiBeleptetoMobilApp.exe</PackagePath>
-      <Modified>2025-04-13T18:26:49.662</Modified>
+      <Modified>2025-04-14T09:00:49.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\source\repos\DolgozoiBeleptetoMobilApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +288,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\source\repos\DolgozoiBeleptetoMobilApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DolgozoiBeleptetoMobilApp.deps.json">
       <PackagePath>DolgozoiBeleptetoMobilApp.deps.json</PackagePath>
-      <Modified>2025-04-13T18:26:50.522</Modified>
+      <Modified>2025-04-13T18:33:13.192</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

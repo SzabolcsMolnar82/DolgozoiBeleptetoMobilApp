@@ -5,8 +5,10 @@
 
     <VerticalStackLayout Padding="20" Spacing="15">
         <Label Text="{Binding WelcomeText}" FontSize="24" FontAttributes="Bold" />
-        <Label Text="Ledolgozott idő: {Binding WorkedTime}" FontSize="18" TextColor="Green" />
-
+        
+        <Label Text="Ledolgozott idő:" FontSize="18" TextColor="Green" />
+        <Label Text="{Binding WorkedTime}" FontSize="18" TextColor="Green" />
+        
         <Button Text="Munka indítása" Command="{Binding StartWorkCommand}" />
         <Button Text="Munka befejezése" Command="{Binding EndWorkCommand}" />
         <Button Text="Havi munkaidő megtekintése" Command="{Binding ViewMonthlyCommand}" />

@@ -1,36 +1,74 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Collections.ObjectModel;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
-using DolgozoiBeleptetoMobilApp.Models;
 
-namespace DolgozoiBeleptetoMobilApp.ViewModels
+namespace DolgozoiBeleptetoMobilApp.ViewModels;
+
+public partial class MonthlyHoursViewModel : ObservableObject
 {
-    public partial class MonthlyHoursViewModel : ObservableObject
+    // ObservableCollection, ami tartalmazza a napi munkaidőket
+    public ObservableCollection<HaviMunkaDto> HaviMunkaLista { get; set; } = new();
+
+    // Parancs, amit az OnAppearing hív meg a nézeten
+    public IAsyncRelayCommand LoadDataCommand { get; }
+
+    public MonthlyHoursViewModel()
     {
-        [ObservableProperty] private List<string> ledolgozottNapok = new();
+        LoadDataCommand = new AsyncRelayCommand(LoadMonthlyData);
+    }
 
-        public ICommand LoadDataCommand => new AsyncRelayCommand(LoadDataAsync);
-
-        private async Task LoadDataAsync()
+    private async Task LoadMonthlyData()
+    {
+        try
         {
             var token = await SecureStorage.GetAsync("jwt_token");
+            var dolgozoId = Preferences.Get("dolgozoId", 0);
+
             var client = new HttpClient();
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            var response = await client.GetAsync($"{ApiConstants.BaseUrl}/api/havimunka?dolgozoId=1");
-            if (response.IsSuccessStatusCode)
+            var response = await client.GetFromJsonAsync<MonthlyMunkaResponse>(
+                $"{ApiConstants.BaseUrl}/api/attendance/monthly-work/{dolgozoId}");
+
+            HaviMunkaLista.Clear();
+
+            if (response != null && response.Days != null)
             {
-                var data = await response.Content.ReadFromJsonAsync<List<HaviMunkaDto>>();
-                LedolgozottNapok = data.Select(d => $"{d.Datum.ToShortDateString()}: {d.LedolgozottIdoPerc} perc").ToList();
+                foreach (var nap in response.Days)
+                {
+                    HaviMunkaLista.Add(new HaviMunkaDto
+                    {
+                        Datum = DateTime.Parse(nap.Datum).ToString("yyyy. MMM dd."),
+                        LedolgozottIdo = $"{nap.LedolgozottIdoPerc / 60} óra {nap.LedolgozottIdoPerc % 60} perc"
+                    });
+                }
             }
         }
+        catch (Exception ex)
+        {
+            await Shell.Current.DisplayAlert("Hiba", $"Nem sikerült betölteni: {ex.Message}", "OK");
+        }
+    }
+
+    // DTO-k a szerver válaszához
+    public class MonthlyMunkaResponse
+    {
+        public List<NapiMunka> Days { get; set; }
+        public int TotalDaysWorked { get; set; }
+    }
+
+    public class NapiMunka
+    {
+        public string Datum { get; set; }
+        public int LedolgozottIdoPerc { get; set; }
+    }
+
+    public class HaviMunkaDto
+    {
+        public string Datum { get; set; }
+        public string LedolgozottIdo { get; set; }
     }
 }
 

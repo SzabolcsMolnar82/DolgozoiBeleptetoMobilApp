@@ -4,11 +4,12 @@
        xmlns:views="clr-namespace:DolgozoiBeleptetoMobilApp.Views"
        x:Class="DolgozoiBeleptetoMobilApp.AppShell">
     <ShellContent Title="BLOKKOLÓ-ÓRA" Route="LoginPage" ContentTemplate="{DataTemplate views:LoginPage}" />
-    <ShellContent Title="Bejelentkezés" Route="CheckInPage" ContentTemplate="{DataTemplate views:CheckInPage}" />
-    <ShellContent Title="Havi munka" Route="MonthlyHoursPage" ContentTemplate="{DataTemplate views:MonthlyHoursPage}" />
-    <ShellContent Route="AdminPage" ContentTemplate="{DataTemplate views:AdminPage}" />
-    <ShellContent Route="DashboardPage" ContentTemplate="{DataTemplate views:DashboardPage}" />
     <ShellContent Title="Kijelentkezés" Route="LogoutPage" ContentTemplate="{DataTemplate views:LoginPage}" />
 
+    <ShellContent Route="Bejelentkezés" ContentTemplate="{DataTemplate views:CheckInPage}" />
+    <ShellContent Route="Havi munka" ContentTemplate="{DataTemplate views:MonthlyHoursPage}" />
+    <ShellContent Route="AdminPage" ContentTemplate="{DataTemplate views:AdminPage}" />
+    <ShellContent Route="DashboardPage" ContentTemplate="{DataTemplate views:DashboardPage}" />
+    
 
 </Shell>

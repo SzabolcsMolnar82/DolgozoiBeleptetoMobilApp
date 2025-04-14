@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using DolgozoiBeleptetoMobilApp.ViewModels;
 
 
-using DolgozoiBeleptetoMobilApp.ViewModels;
 
 namespace DolgozoiBeleptetoMobilApp.Views
 {
