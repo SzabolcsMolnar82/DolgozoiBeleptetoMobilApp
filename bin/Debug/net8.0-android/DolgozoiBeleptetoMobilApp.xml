@@ -40,12 +40,6 @@
         <member name="P:DolgozoiBeleptetoMobilApp.ViewModels.LoginViewModel.ErrorMessage">
             <inheritdoc cref="F:DolgozoiBeleptetoMobilApp.ViewModels.LoginViewModel.errorMessage"/>
         </member>
-        <member name="T:DolgozoiBeleptetoMobilApp.ViewModels.MonthlyHoursViewModel">
-            <inheritdoc/>
-        </member>
-        <member name="P:DolgozoiBeleptetoMobilApp.ViewModels.MonthlyHoursViewModel.LedolgozottNapok">
-            <inheritdoc cref="F:DolgozoiBeleptetoMobilApp.ViewModels.MonthlyHoursViewModel.ledolgozottNapok"/>
-        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
@@ -79,9 +73,6 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ErrorMessage">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ErrorMessage" generated properties.</summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LedolgozottNapok">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LedolgozottNapok" generated properties.</summary>
-        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -114,9 +105,6 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ErrorMessage">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ErrorMessage" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LedolgozottNapok">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LedolgozottNapok" generated properties.</summary>
         </member>
     </members>
 </doc>

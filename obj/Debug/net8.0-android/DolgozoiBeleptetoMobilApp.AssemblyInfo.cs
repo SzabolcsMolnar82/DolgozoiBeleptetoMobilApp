@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DolgozoiBeleptetoMobilApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+45263b21b4e016bf92bbf0f10ffd20b118f4f9ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+12a20da091f40d01bb836a5b258f9a75d4db7f8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DolgozoiBeleptetoMobilApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DolgozoiBeleptetoMobilApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

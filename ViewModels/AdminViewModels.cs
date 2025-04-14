@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Net.Http.Json;
 using DolgozoiBeleptetoMobilApp.Models;
 
+
 namespace DolgozoiBeleptetoMobilApp.ViewModels
 {
     public partial class AdminViewModel : ObservableObject
@@ -22,11 +23,24 @@ namespace DolgozoiBeleptetoMobilApp.ViewModels
 
         public IRelayCommand<int> DeleteCommand => new RelayCommand<int>(async (id) =>
         {
-            var response = await new HttpClient().DeleteAsync($"{ApiConstants.BaseUrl}/api/admin/dolgozo/{id}");
+            var token = await SecureStorage.GetAsync("jwt_token");
+
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Authorization =
+                new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+            var response = await client.DeleteAsync($"{ApiConstants.BaseUrl}/api/admin/delete-employee/{id}");
+
             if (response.IsSuccessStatusCode)
             {
                 var torlendo = Dolgozok.FirstOrDefault(d => d.Id == id);
                 if (torlendo != null) Dolgozok.Remove(torlendo);
+
+                await Shell.Current.DisplayAlert("Siker", "Dolgozó törölve!", "OK");
+            }
+            else
+            {
+                await Shell.Current.DisplayAlert("Hiba", $"Törlés sikertelen: {response.StatusCode}", "OK");
             }
         });
 
@@ -84,6 +98,7 @@ namespace DolgozoiBeleptetoMobilApp.ViewModels
                 Console.WriteLine($"❌ Hiba új dolgozó hozzáadásakor: {ex.Message}");
             }
         });
+
 
     }
 }

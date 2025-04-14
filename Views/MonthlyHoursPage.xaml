@@ -5,24 +5,23 @@
              x:Class="DolgozoiBeleptetoMobilApp.Views.MonthlyHoursPage"
              Title="Havi munkaórák">
 
-    <ContentPage.BindingContext>
-        <vm:MonthlyHoursViewModel />
-    </ContentPage.BindingContext>
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10">
+            <Label Text="Havi munkaidő" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
 
-    <VerticalStackLayout Padding="20" Spacing="10">
-        <Label Text="Havi munkaidő" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
+            <CollectionView ItemsSource="{Binding HaviMunkaLista}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="Gray" Margin="5">
+                            <VerticalStackLayout Padding="10">
+                                <Label Text="{Binding Datum}" FontAttributes="Bold" />
+                                <Label Text="{Binding LedolgozottIdo}" />
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
 
-        <CollectionView ItemsSource="{Binding HaviMunkaLista}">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Frame BorderColor="Gray" Margin="5">
-                        <VerticalStackLayout Padding="10">
-                            <Label Text="{Binding Datum}" FontAttributes="Bold" />
-                            <Label Text="{Binding LedolgozottIdo}" />
-                        </VerticalStackLayout>
-                    </Frame>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-    </VerticalStackLayout>
 </ContentPage>

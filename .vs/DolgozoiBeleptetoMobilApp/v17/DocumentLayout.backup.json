@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\viewmodels\\adminviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:viewmodels\\adminviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\views\\adminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:views\\adminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\views\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:views\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,20 +23,12 @@
       "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\views\\monthlyhourspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:views\\monthlyhourspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\dolgozoibeleptetomobilapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:dolgozoibeleptetomobilapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\viewmodels\\monthlyhoursviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:viewmodels\\monthlyhoursviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,40 +39,52 @@
       "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\views\\checkoutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:views\\checkoutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\views\\checkoutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:views\\checkoutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\views\\monthlyhourspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:views\\monthlyhourspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\views\\checkinpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:views\\checkinpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\viewmodels\\adminviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:viewmodels\\adminviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\views\\checkinpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:views\\checkinpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\apiconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:apiconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\views\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:views\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\views\\monthlyhourspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:views\\monthlyhourspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\views\\adminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:views\\adminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\viewmodels\\monthlyhoursviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:viewmodels\\monthlyhoursviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\views\\checkinpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:views\\checkinpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\views\\checkinpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:views\\checkinpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|c:\\users\\pc\\source\\repos\\dolgozoibeleptetomobilapp\\views\\checkoutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE6851E1-1F9F-4F9B-9FB7-B5FB6BA67E6C}|DolgozoiBeleptetoMobilApp.csproj|solutionrelative:views\\checkoutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,80 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DashboardViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\ViewModels\\DashboardViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\DashboardViewModel.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\ViewModels\\DashboardViewModel.cs",
-              "RelativeToolTip": "ViewModels\\DashboardViewModel.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAAEMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T06:35:25.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "MonthlyHoursPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\MonthlyHoursPage.xaml",
-              "RelativeDocumentMoniker": "Views\\MonthlyHoursPage.xaml",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\MonthlyHoursPage.xaml",
-              "RelativeToolTip": "Views\\MonthlyHoursPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-14T08:13:20.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DashboardPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\DashboardPage.xaml",
-              "RelativeDocumentMoniker": "Views\\DashboardPage.xaml",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\DashboardPage.xaml",
-              "RelativeToolTip": "Views\\DashboardPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-13T18:31:41.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-07T07:37:42.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\AppShell.xaml.cs",
-              "RelativeToolTip": "AppShell.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T10:38:18.816Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MonthlyHoursPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\MonthlyHoursPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\MonthlyHoursPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\MonthlyHoursPage.xaml.cs",
-              "RelativeToolTip": "Views\\MonthlyHoursPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T08:14:17.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "DashboardPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\DashboardPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\DashboardPage.xaml.cs",
@@ -179,7 +118,21 @@
               "RelativeToolTip": "Views\\DashboardPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T07:37:16.55Z"
+              "WhenOpened": "2025-04-07T07:37:16.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T10:38:18.816Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -189,13 +142,170 @@
               "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\ViewModels\\LoginViewModel.cs",
               "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAzwA0AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:34:55.653Z"
+              "WhenOpened": "2025-04-14T07:34:55.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAwBQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T06:35:25.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\ViewModels\\AdminViewModels.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AdminViewModels.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\ViewModels\\AdminViewModels.cs*",
+              "RelativeToolTip": "ViewModels\\AdminViewModels.cs*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwCwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T07:08:51.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DolgozoiBeleptetoMobilApp",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\DolgozoiBeleptetoMobilApp.csproj",
+              "RelativeDocumentMoniker": "DolgozoiBeleptetoMobilApp.csproj",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\DolgozoiBeleptetoMobilApp.csproj",
+              "RelativeToolTip": "DolgozoiBeleptetoMobilApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-14T12:12:21.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\AdminPage.xaml",
+              "RelativeDocumentMoniker": "Views\\AdminPage.xaml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\AdminPage.xaml",
+              "RelativeToolTip": "Views\\AdminPage.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-07T07:37:20.915Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-07T07:37:42.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\AdminPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AdminPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\AdminPage.xaml.cs",
+              "RelativeToolTip": "Views\\AdminPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T07:36:57.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CheckOutViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\ViewModels\\CheckOutViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CheckOutViewModel.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\ViewModels\\CheckOutViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CheckOutViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T11:55:10.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CheckOutPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\CheckOutPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\CheckOutPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\CheckOutPage.xaml.cs",
+              "RelativeToolTip": "Views\\CheckOutPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T07:37:14.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CheckOutPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\CheckOutPage.xaml",
+              "RelativeDocumentMoniker": "Views\\CheckOutPage.xaml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\CheckOutPage.xaml",
+              "RelativeToolTip": "Views\\CheckOutPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-14T11:57:11.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T08:46:32.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "Views\\DashboardPage.xaml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\DashboardPage.xaml",
+              "RelativeToolTip": "Views\\DashboardPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-13T18:31:41.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MonthlyHoursPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\MonthlyHoursPage.xaml",
+              "RelativeDocumentMoniker": "Views\\MonthlyHoursPage.xaml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\MonthlyHoursPage.xaml",
+              "RelativeToolTip": "Views\\MonthlyHoursPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-14T08:13:20.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "MonthlyHoursViewModel.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\ViewModels\\MonthlyHoursViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MonthlyHoursViewModel.cs",
@@ -207,43 +317,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\LoginPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\LoginPage.xaml.cs",
-              "RelativeToolTip": "Views\\LoginPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "ApiConstants.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\ApiConstants.cs",
+              "RelativeDocumentMoniker": "ApiConstants.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\ApiConstants.cs",
+              "RelativeToolTip": "ApiConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T08:46:32.043Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AdminViewModels.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\ViewModels\\AdminViewModels.cs",
-              "RelativeDocumentMoniker": "ViewModels\\AdminViewModels.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\ViewModels\\AdminViewModels.cs",
-              "RelativeToolTip": "ViewModels\\AdminViewModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T07:08:51.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AdminPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\AdminPage.xaml",
-              "RelativeDocumentMoniker": "Views\\AdminPage.xaml",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\AdminPage.xaml",
-              "RelativeToolTip": "Views\\AdminPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-07T07:37:20.915Z"
+              "WhenOpened": "2025-04-13T18:28:49.718Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "MonthlyHoursPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\MonthlyHoursPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MonthlyHoursPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\MonthlyHoursPage.xaml.cs",
+              "RelativeToolTip": "Views\\MonthlyHoursPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T08:14:17.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -255,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "CheckInPage.xaml",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\CheckInPage.xaml",
               "RelativeDocumentMoniker": "Views\\CheckInPage.xaml",
@@ -263,23 +362,12 @@
               "RelativeToolTip": "Views\\CheckInPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-14T06:31:10.316Z"
+              "WhenOpened": "2025-04-14T06:31:10.316Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AdminPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\AdminPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\AdminPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\AdminPage.xaml.cs",
-              "RelativeToolTip": "Views\\AdminPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T07:36:57.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "CheckInPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\CheckInPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\CheckInPage.xaml.cs",
@@ -288,30 +376,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T07:37:12.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ApiConstants.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\ApiConstants.cs",
-              "RelativeDocumentMoniker": "ApiConstants.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\ApiConstants.cs",
-              "RelativeToolTip": "ApiConstants.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T18:28:49.718Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CheckOutPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\CheckOutPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\CheckOutPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\DolgozoiBeleptetoMobilApp\\Views\\CheckOutPage.xaml.cs",
-              "RelativeToolTip": "Views\\CheckOutPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T07:37:14.04Z"
             }
           ]
         }
